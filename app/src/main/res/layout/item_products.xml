@@ -12,13 +12,11 @@
 
         <!-- Media -->
         <ImageView
-            android:background="@android:color/darker_gray"
-            android:id="@+id/iv_itemNumThree"
+            android:id="@+id/iv_image"
             android:layout_width="match_parent"
             android:layout_height="194dp"
-            android:contentDescription="image name"
             android:scaleType="center"
-            android:src="@drawable/shr_logo" />
+            tools:src="@tools:sample/avatars" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -28,14 +26,14 @@
 
             <!-- Title, secondary and supporting text -->
             <TextView
-                android:id="@+id/tv_itemNumThree_name"
+                android:id="@+id/tv_nameProduct"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?attr/textAppearanceHeadline6"
                 tools:text="@tools:sample/full_names" />
 
             <TextView
-                android:id="@+id/tv_itemNumThree_price"
+                android:id="@+id/tv_price"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"

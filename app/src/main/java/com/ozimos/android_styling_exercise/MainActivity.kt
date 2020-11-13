@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.ozimos.android_styling_exercise.databinding.ActivityMainBinding
+import com.ozimos.android_styling_exercise.no3.HomeActivity
 
 class MainActivity : AppCompatActivity() {
 
